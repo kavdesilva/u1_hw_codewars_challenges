@@ -6,6 +6,7 @@ function makeNegative(num) {
   num = Math.abs(num) * -1
   return num
 }
+// source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
 
 ```
 
@@ -39,7 +40,6 @@ function square(num) {
 ```js
 
 function sum (numbers) {
-    "use strict";
   let sum = 0
   for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
@@ -57,5 +57,6 @@ function solution(str){
   str = [...str].reverse().join("")
   return str
 }
+// source: https://stackabuse.com/how-to-reverse-a-string-in-javascript/
 
 ```
